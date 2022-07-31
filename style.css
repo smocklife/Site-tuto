@@ -9,7 +9,7 @@ body{
     margin: 0;
     width: 100%;
     position: absolute;
-    margin-top: 425px;
+    margin-top: 250px;
     background-color: burlywood;
 }
 
@@ -31,8 +31,7 @@ body{
 .nav-bar #menu{
     display: inline-block;
     letter-spacing: 3px;
-    
-    margin-top: 20px ;
+    margin-top: 10px ;
     font-size: 25px;
 }
 
