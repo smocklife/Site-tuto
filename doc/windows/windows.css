@@ -100,6 +100,14 @@ font-size: 25px;
     font-weight: bold;
     font-size: 25px;
 }
+#index-4{
+    position: absolute;
+    z-index: 10;
+    margin-top: 110px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .nav li :hover #index{
     color:red;
@@ -120,6 +128,12 @@ font-size: 25px;
     margin-left: 5px;
     font-size: 30px;
 }
+.nav li :hover #index-4{
+    color:red;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+}
 
 
 .nav li :hover #img-rotate{
@@ -127,10 +141,10 @@ font-size: 25px;
     animation-duration: 3s ;
 }
 
-.nav li :hover #img-flip {
+/*.nav li :hover #img-flip {
     animation-name:flip ;
     animation-duration: 3s;
-}
+}*/
 
 @keyframes rotate {
     from {
@@ -142,7 +156,7 @@ font-size: 25px;
         opacity: 30;
     }
 }
-@keyframes flip{
+/*@keyframes flip{
     from{
         transform: rotateY(0deg);
         opacity: 0;
@@ -151,15 +165,11 @@ font-size: 25px;
         transform: rotateY(360deg);
         opacity: 30;
     }
-}
+}*/
 
 .nav img{
     position: relative;
     width: 150px;
-}
-
-#null {
-    visibility: hidden;
 }
 
 
