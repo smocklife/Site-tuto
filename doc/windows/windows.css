@@ -59,9 +59,10 @@ font-size: 25px;
 }
 
 .nav ul li{
-    margin: 50px;
-    max-height:100px;
-    width: 100px;
+
+    margin: 30px;
+    height:150px;
+    width: 150px;
     border: 3px solid black;
 }
 
@@ -75,34 +76,57 @@ font-size: 25px;
 #index{
     position: absolute;
     z-index: 10;
-    margin-top: 75px;
-    margin-left: 5px;
+    margin-top: 110px;
+    margin-left: 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #index-2{
     position: absolute;
     z-index: 10;
-    margin-top: 55px;
-    margin-left: 5px;
+    margin-top:90px;
+    margin-left: 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+#index-3{
+    position: absolute;
+    z-index: 10;
+    margin-top: 110px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .nav a :hover #index{
     color:red;
     margin-top: 35px;
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 30px;
 
 }
-.nav a :hover #img-1{
+.nav a :hover #index-2{
+    color:red;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.nav a :hover #index-3{
+    color:red;
+    margin-top: 35px;
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+
+.nav a :hover #img-rotate{
     animation-name:rotate ;
     animation-duration: 3s ;
 }
 
-.nav a :hover #img-2{
+.nav a :hover #img-flip {
     animation-name:flip ;
     animation-duration: 3s;
 }
@@ -127,15 +151,14 @@ font-size: 25px;
         opacity: 30;
     }
 }
-.nav a :hover #index-2{
-    color:red;
-    margin-top: 15px;
-    margin-left: 5px;
-    font-size: 20px;
-}
 
 .nav img{
     position: relative;
-    width: 100px;
+    width: 150px;
 }
+
+#null {
+    visibility: hidden;
+}
+
 
