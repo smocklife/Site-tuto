@@ -12,36 +12,33 @@ height: 100%;
 }
 
 .top{
+    justify-content: start;
+    display: flex;
     background-color: blueviolet;
     max-width: 100%;
     text-align: center;
 }
 
 .titre{
+    margin-left:40%;
     display: inline;
     font-size: 45px;
 }
 
-.btn-retour{
-display: block;
-text-align: left;
-padding-top: 20px;
-padding-left: 25px;
-
-}
-
-
 .btn-retour > a{
+position: absolute;
 text-decoration: none;
 color:black;
 font-size: 25px;
-
-
+float: left;
+margin-top: 10px;
+margin-left: 10px;
 }
 .btn-retour > a:hover {
     opacity: 40%;
    
 }
+
 
 .nav{
     text-align: center;
