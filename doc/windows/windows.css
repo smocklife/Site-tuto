@@ -45,17 +45,23 @@ font-size: 25px;
 .nav{
     text-align: center;
     width:100% ;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+
 }
 .nav ul{
-    display: inline-flex;
     list-style: none;
+    display: inline-block;
+    align-self: center;
+    margin-right: -80px;
 
 }
 
 .nav ul li{
     margin: 50px;
     max-height:100px;
-    width: 150px;
+    width: 100px;
     border: 3px solid black;
 }
 
@@ -70,7 +76,7 @@ font-size: 25px;
     position: absolute;
     z-index: 10;
     margin-top: 75px;
-    margin-left: 10px;
+    margin-left: 5px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -79,7 +85,7 @@ font-size: 25px;
     position: absolute;
     z-index: 10;
     margin-top: 55px;
-    margin-left: 10px;
+    margin-left: 5px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -87,15 +93,45 @@ font-size: 25px;
 .nav a :hover #index{
     color:red;
     margin-top: 35px;
-    margin-left: -5px;
-    font-size: 25px;
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+.nav a :hover #img-1{
+    animation-name:rotate ;
+    animation-duration: 3s ;
 }
 
+.nav a :hover #img-2{
+    animation-name:flip ;
+    animation-duration: 3s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(360deg);
+        opacity: 30;
+    }
+}
+@keyframes flip{
+    from{
+        transform: rotateY(0deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(360deg);
+        opacity: 30;
+    }
+}
 .nav a :hover #index-2{
     color:red;
-    margin-top: 30px;
-    margin-left: -5px;
-    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 20px;
 }
 
 .nav img{
