@@ -1,0 +1,35 @@
+/*position du top*/
+
+.top{
+    margin-top: 350px;
+}
+/*taille titre*/
+.titre{
+    font-size: 35px;
+}
+/*mise en place de la barre de navigation*/
+.nav-bar{
+    display: grid;
+    height: auto;
+}
+/*mise en place des boutons*/
+#menu {
+    margin-right:50px;
+    margin-bottom:5px ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+/*hover boutons et liens*/
+#menu:hover {
+    background-color: white;
+    opacity:50% ;
+    color: black;
+    border:5px solid ;
+    border-radius:10px ;
+}
+ #menu:hover a{
+    color: black;
+    opacity: 100%;
+ }

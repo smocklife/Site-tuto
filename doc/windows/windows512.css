@@ -9,39 +9,41 @@ body{
     max-width: 100%;
     height: 100%;
 }
-
+/*position du titre*/
 .titre{
+    display: block;
     font-size: 35px;
+    margin-right: 200px;
+    padding: 0px;
 }
+/*boutton retour */
 .btn-retour > a{
     position: absolute;
     text-decoration: none;
     color:black;
     font-size: 35px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
-
+/*disparition "menu" puis apparition*/
 #visible{
     visibility: hidden;
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 20px;
 }
-
-#fleche {
-    display: block;
-    visibility:visible;
-}
-
 .btn-retour :hover #visible{
     visibility: visible;
     z-index: -10;
+}
+/*apparrition "fleche" puis disparition*/
+#fleche {
+    display: block;
+    visibility:visible;
 }
 .btn-retour:hover #fleche {
     visibility: hidden;
     position: absolute;
 }
-
+/*disposition colone du menu */
 #content{
     display: flex;
     justify-content: center;

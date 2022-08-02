@@ -6,11 +6,16 @@ max-height: 100%;
 }
 
 body{
+    display: inline;
     margin: 0;
-    width: 100%;
-    position: absolute;
-    margin-top: 250px;
     background-color: burlywood;
+    
+}
+/*placement du titre*/
+.top{
+    margin-top: 450px;
+    background-color: blueviolet;
+    
 }
 
 .titre{
@@ -19,33 +24,104 @@ body{
     letter-spacing: 5px;
 }
 
-.top{
-    background-color: blueviolet;
-    max-width: 100%;
-}
+/*mise en place de mon menu*/
 
 .nav-bar{
     text-align: center;
-    align-content: center;
+    height: 50px;
 }
 
 .nav-bar #menu{
-    display: inline-block;
+    display: inline;
     letter-spacing: 3px;
     margin-top: 10px ;
     font-size: 25px;
+    margin-left: 50px;
     
 }
-
+/*couleur du menu*/
 #menu > a {
 text-decoration: none;
-padding: 25px;
-margin: 50px;
 color:black;
 }
-#menu > a:hover{
+#menu:hover  a{
     color:white;
     opacity: 50%;
 }
+
+/*mise en place animation windows*/
+.img-hover{
+    z-index: 10;
+    margin-left: -25px;
+    position: absolute;
+    width: 25px;
+    visibility: hidden;
+}
+
+#menu:hover .img-hover{
+    visibility: visible;
+    animation-name:logo;
+    animation-duration: 2s ;
+}
+@keyframes logo{
+    from{
+    margin-left: -25px;
+    }
+
+    to{
+       margin-left: 120px; 
+    }
+}
+/*mise en place animation linux et office*/
+
+.img-hover-1{
+    z-index: 10;
+    margin-top: -5px;
+    margin-left: -25px;
+    position: absolute;
+    width: 40px;
+    visibility: hidden;
+}
+#menu:hover .img-hover-1{
+    visibility: visible;
+    animation-name:logo-1;
+    animation-duration: 2s ;
+}
+@keyframes logo-1{
+    from{
+    margin-left: -25px;
+    }
+
+    to{
+       margin-left: 80px; 
+    }
+}
+/*mise en place animation technique*/
+.img-hover-2{
+    z-index: 10;
+    margin-left: -25px;
+    margin-top: -5px;
+    position: absolute;
+    width: 40px;
+    visibility: hidden;
+}
+#menu:hover .img-hover-2{
+    visibility: visible;
+    animation-name:logo-2;
+    animation-duration: 2s ;
+}
+@keyframes logo-2{
+    from{
+    margin-left: -25px;
+    }
+
+    to{
+       margin-left: 130px; 
+    }
+}
+
+
+
+
 
 

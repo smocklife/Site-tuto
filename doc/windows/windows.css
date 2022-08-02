@@ -10,7 +10,7 @@ margin: 0;
 max-width: 100%;
 height: 100%;
 }
-
+/*mise en forme de la banniere*/
 .top{
     justify-content: start;
     display: flex;
@@ -18,13 +18,13 @@ height: 100%;
     max-width: 100%;
     text-align: center;
 }
-
+/*mise en forme du titre*/
 .titre{
     margin-left:40%;
     display: inline;
     font-size: 45px;
 }
-
+/*mise en forme du boutton retour*/
 .btn-retour > a{
 position: absolute;
 text-decoration: none;
@@ -39,7 +39,7 @@ margin-left: 10px;
    
 }
 
-
+/*mise en formes du menu*/
 .nav{
     text-align: center;
     max-width:100% ;
@@ -64,44 +64,18 @@ margin-left: 10px;
     width: 150px;
     border: 3px solid black;
 }
-
+/*mise en forme des lien du site*/
 .nav a {
     display: block;
     text-decoration:none;
     color: black;
 }
-
+/*mise en plave de lien parametre*/
 #index{
     position: absolute;
     z-index: 10;
     margin-top: 110px;
     margin-left: 20px;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-#index-2{
-    position: absolute;
-    z-index: 10;
-    margin-top:90px;
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-#index-3{
-    position: absolute;
-    z-index: 10;
-    margin-top: 110px;
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 25px;
-}
-#index-4{
-    position: absolute;
-    z-index: 10;
-    margin-top: 110px;
-    margin-left: 30px;
     font-weight: bold;
     font-size: 25px;
 }
@@ -113,17 +87,45 @@ margin-left: 10px;
     font-size: 30px;
 
 }
+/*mise en place du lien raccourci clavier*/
+#index-2{
+    position: absolute;
+    z-index: 10;
+    margin-top:90px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
 .nav li :hover #index-2{
     color:red;
     margin-top: 40px;
     margin-left: 10px;
     font-size: 30px;
 }
+/*mise en place du lien apparence*/
+#index-3{
+    position: absolute;
+    z-index: 10;
+    margin-top: 110px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
 .nav li :hover #index-3{
     color:red;
     margin-top: 50px;
     margin-left: 5px;
     font-size: 30px;
+}
+
+/*mise en place du lien logiciel*/
+#index-4{
+    position: absolute;
+    z-index: 10;
+    margin-top: 110px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
 }
 .nav li :hover #index-4{
     color:red;
@@ -132,16 +134,11 @@ margin-left: 10px;
     font-size: 30px;
 }
 
-
+/*mise en place de la rotation des image*/
 .nav li :hover #img-rotate{
     animation-name:rotate ;
     animation-duration: 3s ;
 }
-
-/*.nav li :hover #img-flip {
-    animation-name:flip ;
-    animation-duration: 3s;
-}*/
 
 @keyframes rotate {
     from {
@@ -153,20 +150,10 @@ margin-left: 10px;
         opacity: 30;
     }
 }
-/*@keyframes flip{
-    from{
-        transform: rotateY(0deg);
-        opacity: 0;
-    }
-    to{
-        transform: rotateY(360deg);
-        opacity: 30;
-    }
-}*/
 
-.nav img{
+/*.nav img{
     position: relative;
     width: 150px;
-}
+}*/
 
 
