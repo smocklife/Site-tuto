@@ -60,3 +60,57 @@ body{
     max-width: 50%;
     margin: 0;
 }
+/*taille btn*/
+.nav ul li{
+    width: 100px;
+    height: 100px;
+}
+/*taille img*/
+.nav img{
+    width:100px ;
+}
+
+#index{
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 40px
+}
+.nav li :hover #index{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 40px
+}
+
+/*index-2*/
+
+#index-2{
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 40px
+}
+.nav li :hover #index-2{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 30px
+}
+/*index-3*/
+#index-3{
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 40px
+}
+.nav li :hover #index-3{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 40px
+}
+/*index-4*/
+#index-4{
+    font-size: 15px;
+    margin-top: 40px
+}
+.nav li :hover #index-4{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 40px
+}
