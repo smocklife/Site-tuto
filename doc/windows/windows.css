@@ -64,6 +64,12 @@ margin-left: 10px;
     width: 150px;
     border: 3px solid black;
 }
+/*mise en taille des images*/
+.nav img{
+    position: relative;
+    width: 150px;
+}
+
 /*mise en forme des lien du site*/
 .nav a {
     display: block;
@@ -151,9 +157,5 @@ margin-left: 10px;
     }
 }
 
-/*.nav img{
-    position: relative;
-    width: 150px;
-}*/
 
 
