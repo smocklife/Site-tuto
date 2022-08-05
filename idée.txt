@@ -1,3 +1,20 @@
--- modifier Icone raccourci clavier
+-- Modifier icone apparence windows 
 -- mise en place des page pour les tuto 
--- 
+-- Mettre une explication des commande
+-- dans raccourci clavier ajouter une div explication et mettre une croix sur chaque div windows 
+-- Mettre en place les pages de menu 
+
+--windows--
+    - apparence
+    - raccourci clavier
+    - parametre
+
+--office--
+    
+--linux--
+
+--technique--
+    - Composant
+--logiciel--
+    - Discorde
+    -

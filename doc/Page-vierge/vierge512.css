@@ -58,57 +58,5 @@ body{
     margin-top: 15px;
 }
 
-.btn button{
-    margin-left:5px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.support{
-    display: inline-table;
-    margin-top: 10px;
-}
-
-.support #windows8{
-    margin-top: 10px;
-    
-}
-
-.support #windows10{
-    position: absolute;
-    margin-top: -175px;
-}
-.support #windows11{
-    position: absolute;
-    margin-top: -175px;
-}
-
-.support table{
-    border:1px solid black;
-    padding: 1px;
-
-}
-table thead tr th{
-    font-size: 20px;
-    font-weight: 500;
-    border: 1px solid black;
-}
-.soustitre td{
-    font-weight: 800;
-    font-size: 15px;
-}
-table tbody tr td{
-    border: 1px solid black;
-    padding: 1px;
-}
-kbd{
-    font-size: 18px;
-    padding: 5px;
-    text-shadow:1px 2px grey;
-    background: gainsboro;
-    font-weight: 900;
-    border: 1px solid black;
-    border-radius: 7px;
-    box-shadow: 10px 1;
-}
 
 
