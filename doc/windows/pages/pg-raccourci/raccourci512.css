@@ -65,21 +65,19 @@ body{
 }
 .support{
     display: inline-table;
-    margin-top: 10px;
 }
 
-.support #windows8{
-    margin-top: 10px;
-    
-}
+/*.support #windows8{
+    margin-top: ;
+}*/
 
 .support #windows10{
     position: absolute;
-    margin-top: -133px;
+    margin-top: -28%;
 }
 .support #windows11{
     position: absolute;
-    margin-top: -133px;
+    margin-top: -28%;
 }
 
 .support table{

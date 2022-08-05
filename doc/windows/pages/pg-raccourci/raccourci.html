@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="raccourci.css">
     <link rel="stylesheet" media="screen and (max-width:512px)" href="raccourci512.css">
-    <title>Document</title>
+    <title>Raccourci Clavier</title>
 <script>
     function windows8(){
         document.getElementById("windows8").style.visibility ="visible";
         document.getElementById("windows10").style.visibility="hidden";
         document.getElementById("windows11").style.visibility="hidden";
+        document.getElementById("desc").style.visibility="hidden";
     }
     function windows10(){
         document.getElementById("windows10").style.visibility ="visible";
         document.getElementById("windows8").style.visibility="hidden";
         document.getElementById("windows11").style.visibility="hidden";
+        document.getElementById("desc").style.visibility="hidden";
     }
     function windows11(){
         document.getElementById("windows11").style.visibility ="visible";
         document.getElementById("windows8").style.visibility="hidden";
         document.getElementById("windows10").style.visibility="hidden";
+        document.getElementById("desc").style.visibility="hidden";
+    }
+
+    function fermer(){
+        document.getElementById("desc").style.visibility="visible"
+        document.getElementById("windows8").style.visibility="hidden";
+        document.getElementById("windows10").style.visibility="hidden";
+        document.getElementById("windows11").style.visibility="hidden";
     }
 
 </script>
@@ -41,7 +51,13 @@
             <button  onclick="windows11()"> windows-11</button>       
         </div>
         <div class="support">
-            <div id="windows8" style="visibility: visible;">
+            <div id="desc" style="visibility:visible;">
+                <div class="ss-titre">TITRE Description</div>
+                <div class="ss-desc">je suis une Description</div>
+
+            </div>
+            <div id="windows8" style="visibility: hidden;">
+                <button class="fermer" onclick="fermer()">X</button>
                 <table>
                     <thead>
                         <tr>
@@ -66,6 +82,7 @@
         
             </div>
             <div id="windows10" style="visibility: hidden;">
+                <button class="fermer" onclick="fermer()">X</button>
                 <table>
                     <thead>
                         <tr>
@@ -90,6 +107,7 @@
         
             </div>
             <div id="windows11" style="visibility: hidden;">
+                <button class="fermer" onclick="fermer()">X</button>
                 <table>
                     <thead>
                         <tr>

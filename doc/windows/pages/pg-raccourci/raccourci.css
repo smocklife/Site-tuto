@@ -53,6 +53,14 @@ margin-left: 20px;
     margin-top: 20px;
 }
 
+.fermer{
+    float: right;
+    margin-right: 10px;
+    margin-left:10px;
+    padding: 3px;
+    color:red;
+}
+
 .support #windows10{
     position: absolute;
     margin-top: -125px;
