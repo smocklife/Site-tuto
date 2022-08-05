@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="raccourci.css">
+    <link rel="stylesheet" media="screen and (max-width:512px)" href="raccourci512.css">
+    <title>Document</title>
+<script>
+    function windows8(){
+        document.getElementById("windows8").style.visibility ="visible";
+        document.getElementById("windows10").style.visibility="hidden";
+        document.getElementById("windows11").style.visibility="hidden";
+    }
+    function windows10(){
+        document.getElementById("windows10").style.visibility ="visible";
+        document.getElementById("windows8").style.visibility="hidden";
+        document.getElementById("windows11").style.visibility="hidden";
+    }
+    function windows11(){
+        document.getElementById("windows11").style.visibility ="visible";
+        document.getElementById("windows8").style.visibility="hidden";
+        document.getElementById("windows10").style.visibility="hidden";
+    }
+
+</script>
+</head>
+<body>
+    <div class="top">
+  
+    <div class="btn-retour" >
+        <a href="../../windows.html" alt="retour"><span id="fleche"> ←</span> <span id="visible">Menu</span></a>
+      </div>
+      <div class ="titre">Raccourci clavier</div>
+    </div>
+    <div class="content">
+        <div class ="btn">
+            <button  onclick="windows8()"> windows-8</button>
+            <button  onclick="windows10()"> windows-10</button>
+            <button  onclick="windows11()"> windows-11</button>       
+        </div>
+        <div class="support">
+            <div id="windows8" style="visibility: visible;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Commande avec la touche windows </th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="soustitre">
+                            <td>Touche-1</td>
+                            <td>Touche-2</td>
+                            <td>Touche-3</td>
+                            <td>Description</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Ctrl</kbd></td>
+                            <td><kbd>C</kbd></td>
+                            <td></td>
+                            <td>Permet de copier du texte un dossier ou un fichier</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </div>
+            <div id="windows10" style="visibility: hidden;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Commande avec la touche windows </th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="soustitre">
+                            <td>Touche-1</td>
+                            <td>Touche-2</td>
+                            <td>Touche-3</td>
+                            <td>Description</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Ctrl</kbd></td>
+                            <td><kbd>C</kbd></td>
+                            <td></td>
+                            <td>Permet de copier du texte un dossier ou un fichier</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </div>
+            <div id="windows11" style="visibility: hidden;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Commande avec la touche windows </th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="soustitre">
+                            <td>Touche-1</td>
+                            <td>Touche-2</td>
+                            <td>Touche-3</td>
+                            <td>Description</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Ctrl</kbd></td>
+                            <td><kbd>C</kbd></td>
+                            <td></td>
+                            <td>Permet de copier du texte un dossier ou un fichier</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+/*mise en forme de la banniere*/
+.top{
+    justify-content: center;
+    background-color: blueviolet;
+    max-width: 100%;
+    text-align: center;
+}
+/*mise en forme du titre*/
+.titre{
+    display: inline-block;
+    font-size: 50px;
+    z-index: 0;
+}
+/*mise en forme du boutton retour*/
+.btn-retour > a{
+z-index: 1;
+justify-content:start;
+text-decoration: none;
+color:black;
+font-size: 25px;
+float: left;
+margin-top: 15px;
+margin-left: 20px;
+}
+.btn-retour > a:hover {
+    opacity: 40%;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+.btn button{
+    margin-left:30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.support{
+    display: inline-table;
+    margin-top: 20px;
+}
+
+.support #windows10{
+    position: absolute;
+    margin-top: -125px;
+}
+.support #windows11{
+    position: absolute;
+    margin-top: -125px;
+}
+
+.support table{
+    border:1px solid black;
+    padding: 10px;
+
+}
+table thead tr th{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+.soustitre td{
+    font-weight: 800;
+    font-size: 20px;
+}
+table tbody tr td{
+    border: 1px solid black;
+    padding: 5px;
+}
+kbd{
+    font-size: 25px;
+    padding: 1px;
+    text-shadow:1px 2px grey;
+    background: gainsboro;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 10px 1;
+}
+
+

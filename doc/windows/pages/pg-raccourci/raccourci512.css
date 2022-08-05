@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+/*mise en forme de la banniere*/
+.top{
+    background-color: blueviolet;
+    max-width: 100%;
+    text-align: center;
+}
+/*mise en forme du titre*/
+.titre{
+    display: inline-block;
+    font-size: 30px;
+    z-index: 10;
+}
+/*boutton retour */
+.btn-retour > a{
+    display:inline ;
+    text-decoration: none;
+    color:black;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+/*disparition "menu" puis apparition*/
+#visible{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    margin-top: -30px;
+    margin-left: -20px;
+    font-size: 20px;
+}
+.btn-retour :hover #visible{
+    visibility: visible;
+    z-index: 5;
+}
+/*apparrition "fleche" puis disparition*/
+#fleche {
+    display: block;
+    visibility:visible;
+}
+.btn-retour:hover #fleche {
+    visibility: hidden;
+}
+
+.content{
+    margin-top: 15px;
+}
+
+.btn button{
+    margin-left:5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.support{
+    display: inline-table;
+    margin-top: 10px;
+}
+
+.support #windows10{
+    position: absolute;
+    margin-top: -115px;
+}
+.support #windows11{
+    position: absolute;
+    margin-top: -115px;
+}
+
+.support table{
+    border:1px solid black;
+    padding: 1px;
+
+}
+table thead tr th{
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+.soustitre td{
+    font-weight: 800;
+    font-size: 15px;
+}
+table tbody tr td{
+    border: 1px solid black;
+    padding: 1px;
+}
+kbd{
+    font-size: 18px;
+    padding: 5px;
+    text-shadow:1px 2px grey;
+    background: gainsboro;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 10px 1;
+}
+
+
