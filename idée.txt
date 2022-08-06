@@ -6,15 +6,41 @@
 
 --windows--
     - apparence
-    - raccourci clavier
-    - parametre
+        * présenetation des interface graphique
+            . windows 8
+            . windows 10
+            . windows 11
+        * mettre en place un fond d'ecran 
+            . windows 8
+            . windows 10
+            . windows 11
 
+        * changer une icone de dossier 
+        * changer les son windows
+        * 
+    - raccourci clavier
+        * windows 8
+        * windows 10
+        * windows 11
+    - parametre
+        * recherche de mise a jour 
+        * configurer les sortie sond (plusisieur peripherique son)
+        * configurer le multie ecran 
+        * mettre en place un réssaux
+    - autre 
+        * utilisation du CMD (invité de commande)
+        * creer un dossier de partage
 --office--
-    
+    - presentation de l'interface
+    - raccourci
+        * word
+        * excel
+    -
 --linux--
 
 --technique--
     - Composant
 --logiciel--
     - Discorde
-    -
+        * creer le Discorde
+        * dev application Discorde

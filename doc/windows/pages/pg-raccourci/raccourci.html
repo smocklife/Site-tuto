@@ -28,10 +28,10 @@
     }
 
     function fermer(){
-        document.getElementById("desc").style.visibility="visible"
+       document.getElementById("desc").style.visibility="visible"
         document.getElementById("windows8").style.visibility="hidden";
         document.getElementById("windows10").style.visibility="hidden";
-        document.getElementById("windows11").style.visibility="hidden";
+       document.getElementById("windows11").style.visibility="hidden";
     }
 
 </script>
@@ -52,12 +52,16 @@
         </div>
         <div class="support">
             <div id="desc" style="visibility:visible;">
-                <div class="ss-titre">TITRE Description</div>
-                <div class="ss-desc">je suis une Description</div>
+                <div class="ss-titre">Les Raccourcis Clavier </div>
+                <div class="ss-desc">chaques raccourci donne un avantage dans l'execution des tâches 
+                    on peut touts faire appatire du clavier de la navigation dans les fichier ou dans les paramettre
+                    souvent il sont utilisé dans les logiciel de traitement de texte mais on peut aussi sans servire pour se déplacer dans windows.
+                </div>
 
             </div>
-            <div id="windows8" style="visibility: hidden;">
-                <button class="fermer" onclick="fermer()">X</button>
+            <div class="windows-vr">
+                <div id="windows8" style="visibility: hidden;">
+                    <button class="fermer" onclick="fermer()">X</button>
                 <table>
                     <thead>
                         <tr>
@@ -79,8 +83,8 @@
                         </tr>
                     </tbody>
                 </table>
-        
-            </div>
+               
+             </div>
             <div id="windows10" style="visibility: hidden;">
                 <button class="fermer" onclick="fermer()">X</button>
                 <table>
@@ -105,8 +109,8 @@
                     </tbody>
                 </table>
         
-            </div>
-            <div id="windows11" style="visibility: hidden;">
+                </div>
+                <div id="windows11" style="visibility: hidden;">
                 <button class="fermer" onclick="fermer()">X</button>
                 <table>
                     <thead>
@@ -130,6 +134,8 @@
                     </tbody>
                 </table>
         
+            
+                </div>
             </div>
         </div> 
     </div>
